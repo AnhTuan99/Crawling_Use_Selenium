@@ -18,7 +18,7 @@ public class CrawlingUseSeleniumApplication {
 
             AutoComment autoComment = new AutoComment();
 			autoComment.setMainURL("https://www.facebook.com");
-            autoComment.crawType("daotuan1712@gmail.com", "Haxinhtuoi","https://www.facebook.com/photo/?fbid=595534358408946&set=gm.496139991573935","Xuất xắc <3");
+            autoComment.crawType("email", "password","https://www.facebook.com/photo/?fbid=595534358408946&set=gm.496139991573935","Xuất xắc <3");
             //autoComment.close();
         } catch (Exception e) {
             e.printStackTrace();
